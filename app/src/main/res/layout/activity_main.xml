@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#333"
+android:orientation="vertical"
+tools:context="com.nathaliano.konversi_satuan.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/ET_input"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3.38"
+            android:background="#ffff"
+            android:hint="0 KM"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.75"
+            android:background="#ffff"
+            android:paddingLeft="10dp"
+            android:text="Hasil"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bhm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="bhm"
+        android:text="hektometer"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:id="@+id/tombol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bdam"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="bdam"
+            android:text="dekameter"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="bm"
+        android:text="meter"
+        android:textSize="16dp" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tomboll"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bdm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="bdm"
+            android:text="desimeter"
+            android:textSize="16dp" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/bcm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="bcm"
+        android:text="centimeter"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tomboll"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bmm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="bmm"
+            android:text="milimeter"
+            android:textSize="16dp" />
+    </LinearLayout>
+</LinearLayout>
